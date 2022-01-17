@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resources</title>
+    <script src="script/index.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div class="justify-content-center align-items-center">
+    <div class="page-header" align="center">
+        <h1>Resources</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Url</th>
+            <th>Creation Date</th>
+            <th>Status</th>
+        </tr>
+        <tbody id="resources">
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+
+    <div class="page-header" align="center">
+        <h1>Add resource</h1>
+    </div>
+    <form id="addResource">
+        <div class="form-group">
+            <label for="name">Resource name:</label><br>
+            <input type="text" class="form-control" id="name" name="name"><br>
+        </div>
+        <div class="form-group">
+            <label for="url">Resource URL:</label><br>
+            <input type="text" class="form-control" id="url" name="url">
+        </div>
+        <button type="button" class="btn btn-primary" onclick="addResource()"> Submit</button>
+    </form>
+    <br>
+    <br>
+</div>
+</body>
+</html>
