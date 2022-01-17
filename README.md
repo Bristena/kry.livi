@@ -1,4 +1,4 @@
-#Summary
+# Summary
 
 As a part of scaling the number of services running within a modern health
 tech company we need a way to make sure our systems are running
@@ -18,5 +18,5 @@ The endpoint can be used via swagger
 3. Docker
 
 ## Running the application
-1. Use the command `docker-compose up` from src/main/resources to use MySql database 
+1. Use the command `docker-compose up` from src/main/resources to start the MySql database 
 2. Run `./gradlew bootRun` in a terminal to start the application
